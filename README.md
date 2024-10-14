@@ -28,7 +28,7 @@ To set up the project, follow these steps:
 
 1. **Clone or Download the Repository**:
    ```bash
-   git clone https://github.com/nuredinbedruyimer/Mereb_task-V1)
+   git clone https://github.com/nuredinbedruyimer/Mereb_task-V1
 2. **Install Dependencies: Run the following command to install necessary dependencies**:
    ```bash
       go mod tidy
