@@ -57,7 +57,7 @@ You can interact with the API using the following endpoints:
 | **PUT**     | `http://localhost/persons/:id` | Update an existing person record     |
 | **DELETE**  | `http://localhost/persons/:id` | Delete a person record              |
 
-##🗂️ **Code Structure**
+## 🗂️ **Code Structure**:
  The project structure is organized as follows:
  
 
