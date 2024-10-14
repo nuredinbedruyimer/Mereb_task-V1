@@ -63,19 +63,9 @@ You can interact with the API using the following endpoints:
 
 
 
-person-management-api/
-│
-├── controllers/       # Handles HTTP requests and responses
-├── services/          # Contains business logic for processing requests
-├── models/            # Defines data structures used in the application (e.g., Person)
-├── constants/         # Stores constant values such as messages and responses
-├── config/            # Manages application configuration, including CORS setup
-├── routes/            # Organizes route definitions for the API
-├── database/          # Manages database connections and operations
-├── helpers/           # Contains utility functions, including data validation
-├── .env               # Stores environment variables for configuration
-├── go.mod             # Manage module dependencies
-└── go.sum             # Manage module dependencies
+person-management-api/ ├── controllers/ # Handles HTTP requests and responses ├── services/ # Contains business logic for processing requests ├── models/ # Defines data structures used in the application (e.g., Person) ├── constants/ # Stores constant values such as messages and responses ├── config/ # Manages application configuration, including CORS setup ├── routes/ # Organizes route definitions for the API ├── database/ # Manages database connections and operations ├── helpers/ # Contains utility functions, including data validation ├── .env # Stores environment variables for configuration ├── go.mod # Manages module dependencies └── go.sum # Manages module dependencies
+
+
 
 
 ## 💡 **Conclusion**
