@@ -53,15 +53,7 @@ func CreatePersonController(c *gin.Context) {
 	c.JSON(http.StatusCreated, person)
 }
 
-/*
-Use Some Pagination To Not Make The Front End Part OverLoaded
- In This Case we use limit and offset queryparameter
-   limit : # Persons per page
-   offset: # of skip to fetch the Next Person,
 
-   inthis case just use 3 person per page(default)
-
-*/
 
 func GetAllPersonController(c *gin.Context) {
 	persons := services.FetchAllPersonsService()
